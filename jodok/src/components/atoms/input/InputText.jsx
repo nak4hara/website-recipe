@@ -1,6 +1,6 @@
-import './SearchInput.styles.css'
+import './InputText.styles.css'
 
-export default function SearchInput() {
+export default function SearchInput(props) {
     return (
         <div>
             <input type="text" name="search" id="search"

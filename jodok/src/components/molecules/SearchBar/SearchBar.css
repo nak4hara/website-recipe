@@ -1,0 +1,15 @@
+.search-bar{
+    margin: 1rem 2rem;
+    display: grid;
+    grid-template-columns: 85% 15%;
+}
+
+#search-icon{
+    height: 2rem;
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .search-bar{
+        grid-template-columns: 95% 5%;
+    }
+}

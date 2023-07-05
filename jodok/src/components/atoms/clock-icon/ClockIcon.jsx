@@ -1,4 +1,4 @@
-import Clock from '../../assets/clock.svg'
+import Clock from '/src/assets/clock.svg'
 import './ClockIcon.styles.css'
 
 export default function ClockIcon() {

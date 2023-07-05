@@ -1,4 +1,4 @@
-import Bars from '../../assets/bars.svg'
+import Bars from '/src/assets/bars.svg'
 import './BarIcon.styles.css'
 
 export default function BarIcon() {
@@ -6,5 +6,6 @@ export default function BarIcon() {
         <div>
             <img id="menu" src={Bars} alt="Menu" />
         </div>
+
     )
 }
