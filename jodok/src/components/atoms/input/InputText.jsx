@@ -1,11 +1,17 @@
 import './InputText.styles.css'
 
-export default function SearchInput(props) {
+const SearchInput = (props) => {
+
     return (
-        <div>
-            <input type="text" name="search" id="search"
-                placeholder="Search here..." />
+        <div className="input-text" >
+            <input
+                type="text"
+                onChange={props.onChange}
+                value={props.value}
+                placeholder={props.placeholder}
+            />
         </div>
     )
 }
 
+export default SearchInput
